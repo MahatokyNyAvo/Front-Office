@@ -1,0 +1,85 @@
+.input-group > :not(:first-child):not(.dropdown-menu):not(.form-floating):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback), .input-group > .form-floating:not(:first-child) > .form-control, .input-group > .form-floating:not(:first-child) > .form-select {
+  margin-left: -1px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.input-group {
+  margin-left: auto;
+}
+
+.manasaraka {
+  background-color: initial;
+  border-color: initial;
+}
+
+input, select {
+  background: var(--bs-gray-200);
+}
+
+.form-critera {
+  border-radius: 0px;
+  height: 35px;
+  width: 100%;
+}
+
+.form-critera:focus, .form-critera:active {
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+}
+
+.side-bar-critera {
+  padding-top: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right-width: 1px;
+  border-right-style: inset;
+  width: 25%;
+}
+
+.contain-form-critera {
+  margin-top: 20px;
+  padding: 0px;
+}
+
+.form-critera {
+  border-style: outset;
+  width: 100%;
+  border: 1px;
+}
+
+.contain-form-critera {
+  width: 100%;
+}
+
+input[type="text" i] {
+  padding: 10px;
+}
+
+input, button, select, optgroup, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: initial;
+}
+
+.span-critera {
+  padding: 0px;
+}
+
+div {
+}
+
+.little-info {
+  padding-top: 20px;
+}
+
+.col-image {
+  width: 50%;
+  height: 100%;
+}
+
+.encherir {
+  background: var(--bs-card-border-color);
+}
+
