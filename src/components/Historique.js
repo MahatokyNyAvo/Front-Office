@@ -11,7 +11,7 @@ const Historique = (props) => {
 
 
     const getMine = async () => {
-        const response = await fetch("http://localhost:8080/encheres/mine/"+user.id_utilisateur);
+        const response = await fetch("http://api-enchere-production.up.railway.app/encheres/mine/"+user.id_utilisateur);
         const json = await response.json();
         setEncehere(json);
       }

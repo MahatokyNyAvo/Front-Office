@@ -26,7 +26,7 @@ const Login = (props) =>{
         email: mail, 
         mdp: pass,
       }
-        const url = await fetch("http://localhost:8080/utilisateurs/login", {
+        const url = await fetch("http://api-enchere-production.up.railway.app/utilisateurs/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

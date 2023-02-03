@@ -21,7 +21,7 @@ function Detail() {
   }
 
   const infoEnchere = async (id) => {
-    const response = await fetch("http://localhost:8080/encheres/"+id);
+    const response = await fetch("http://api-enchere-production.up.railway.app/encheres/"+id);
     const json = await response.json();
     setEncehere(json);
   }

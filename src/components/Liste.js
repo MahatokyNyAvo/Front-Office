@@ -35,13 +35,13 @@ const Liste = () => {
   }
 
   const getAllEnchere = async () => {
-    const response = await fetch("http://localhost:8080/encheres");
+    const response = await fetch("http://api-enchere-production.up.railway.app/encheres");
     const json = await response.json();
     setEncehere(json);
   }
 
   const getAllCategorie = async () => {
-    const response = await fetch("http://localhost:8080/categories");
+    const response = await fetch("http://api-enchere-production.up.railway.app/categories");
     const json = await response.json();
     setCategories(json);
   }
@@ -66,7 +66,7 @@ const Liste = () => {
       date: date, 
       statut: cache, 
     }
-    const search = await fetch("http://localhost:8080/encheres", {
+    const search = await fetch("http://api-enchere-production.up.railway.app/encheres", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
